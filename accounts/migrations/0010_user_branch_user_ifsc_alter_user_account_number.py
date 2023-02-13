@@ -15,13 +15,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='user',
             name='branch',
-            field=models.CharField(default=django.utils.timezone.now, max_length=100),
+            field=models.CharField(max_length=100),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='user',
             name='ifsc',
-            field=models.CharField(default=django.utils.timezone.now, max_length=100),
+            field=models.CharField(max_length=100),
             preserve_default=False,
         ),
         migrations.AlterField(

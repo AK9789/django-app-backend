@@ -104,6 +104,7 @@ DATABASES = {
         'PORT':'3306'
     }
 }
+DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_PERMISSION_CLASSES': (

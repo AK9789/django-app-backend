@@ -97,7 +97,7 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bank3_jenkins',
+        'NAME': 'bank3',
         'USER':'root',
         'PASSWORD':'root',
         'HOST':'localhost',

@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='user',
             name='ifsc',
-            field=models.CharField(default=datetime.datetime(2023, 2, 10, 9, 5, 10, 266880, tzinfo=datetime.timezone.utc), max_length=100),
+            field=models.CharField(default=django.utils.timezone.now, max_length=100),
             preserve_default=False,
         ),
         migrations.AlterField(
